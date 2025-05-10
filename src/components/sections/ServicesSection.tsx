@@ -3,14 +3,14 @@ import React from 'react';
 import { Code, Link, MessageSquare, School, Wand } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-type ServiceCardProps = {
+type SkillCardProps = {
   title: string;
   description: string;
   icon: React.ReactNode;
   className?: string;
 };
 
-const ServiceCard = ({ title, description, icon, className }: ServiceCardProps) => {
+const SkillCard = ({ title, description, icon, className }: SkillCardProps) => {
   return (
     <div className={cn(
       "bg-white rounded-xl p-6 shadow-sm border border-gray-100 transition-all duration-300",
@@ -27,30 +27,30 @@ const ServiceCard = ({ title, description, icon, className }: ServiceCardProps) 
 };
 
 const ServicesSection = () => {
-  const services = [
+  const skills = [
     {
-      title: "Custom AI Tool Development",
-      description: "Tailored AI solutions designed specifically for your business needs, from chatbots to custom predictive models.",
+      title: "AI Development",
+      description: "Expert in developing custom AI solutions including machine learning models, natural language processing, and computer vision applications.",
       icon: <Code size={24} />
     },
     {
-      title: "AI Integration",
-      description: "Seamlessly integrate existing AI tools and APIs into your current workflow and systems.",
+      title: "System Integration",
+      description: "Proficient at integrating AI technologies with existing systems and workflows to create cohesive technical ecosystems.",
       icon: <Link size={24} />
     },
     {
-      title: "Consultation",
-      description: "Expert guidance on identifying the right AI opportunities for your specific business challenges.",
+      title: "Team Collaboration",
+      description: "Experienced in cross-functional collaboration with product, design, and business teams to deliver strategic technical solutions.",
       icon: <MessageSquare size={24} />
     },
     {
-      title: "Training",
-      description: "Equip your team with the knowledge to effectively use and manage AI tools in your business.",
+      title: "Continuous Learning",
+      description: "Committed to ongoing education in emerging technologies and methodologies to maintain cutting-edge technical knowledge.",
       icon: <School size={24} />
     },
     {
-      title: "Specialized Builds",
-      description: "Advanced AI implementations like voice assistants, video generators, and more.",
+      title: "Technical Leadership",
+      description: "Track record of leading technical initiatives, mentoring junior developers, and setting architectural direction.",
       icon: <Wand size={24} />
     }
   ];
@@ -59,19 +59,19 @@ const ServicesSection = () => {
     <section id="services" className="section bg-gray-50">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">What I Offer</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Skills & Expertise</h2>
           <p className="text-xl text-gray-600">
-            Practical AI solutions that deliver real value for your business.
+            Core technical competencies and professional strengths.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((service, index) => (
-            <ServiceCard
+          {skills.map((skill, index) => (
+            <SkillCard
               key={index}
-              title={service.title}
-              description={service.description}
-              icon={service.icon}
+              title={skill.title}
+              description={skill.description}
+              icon={skill.icon}
             />
           ))}
         </div>

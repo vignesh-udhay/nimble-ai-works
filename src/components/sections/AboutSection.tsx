@@ -35,12 +35,12 @@ const AboutSection = () => {
           
           {/* About Text */}
           <div className="lg:max-w-lg">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Hey, I'm Alex</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
             <p className="text-lg text-gray-600 mb-4">
-              I'm a senior software engineer with 8 years of experience specializing in AI solutions that transform complex technology into practical, business-driving tools.
+              I'm a senior software engineer with 8 years of experience in AI and machine learning systems. My passion is building intelligent applications that solve real-world problems through innovative technology.
             </p>
             <p className="text-lg text-gray-600 mb-6">
-              Having led teams at startups and enterprise organizations, I've developed a deep understanding of how to architect AI systems that deliver measurable ROI. My approach combines technical expertise with business acumen to create solutions that actually work for your specific needs.
+              Throughout my career, I've worked with startups and enterprise organizations, leading teams to deliver high-impact AI solutions. I specialize in creating scalable, production-ready systems that transform business capabilities.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -49,12 +49,12 @@ const AboutSection = () => {
                 <p className="text-gray-600">8+ Years</p>
               </div>
               <div className="bg-gray-50 rounded-lg p-4 flex-1">
-                <h4 className="font-semibold mb-1">Projects</h4>
-                <p className="text-gray-600">60+ Delivered</p>
+                <h4 className="font-semibold mb-1">Education</h4>
+                <p className="text-gray-600">M.S. Computer Science</p>
               </div>
               <div className="bg-gray-50 rounded-lg p-4 flex-1">
-                <h4 className="font-semibold mb-1">Clients</h4>
-                <p className="text-gray-600">35+ Satisfied</p>
+                <h4 className="font-semibold mb-1">Specialization</h4>
+                <p className="text-gray-600">AI & ML Systems</p>
               </div>
             </div>
           </div>

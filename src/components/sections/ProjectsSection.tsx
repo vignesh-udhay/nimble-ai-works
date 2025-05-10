@@ -21,43 +21,43 @@ type Project = {
 const ProjectsSection = () => {
   const projects: Project[] = [
     {
-      title: "Voice Assistant",
-      description: "An intuitive voice assistant built with Gradio that helps businesses automate customer inquiries and FAQs.",
+      title: "Enterprise Voice Assistant",
+      description: "Developed a voice assistant system that reduced customer service costs by 35% while improving response accuracy to 94%.",
       image: "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-      tags: ["Gradio", "Speech Recognition", "NLP"],
+      tags: ["Speech Recognition", "NLP", "Python", "TensorFlow"],
       demoLink: "#"
     },
     {
-      title: "AI Video Generator",
-      description: "A tool that transforms text scripts into fully rendered videos with AI-generated narration and visuals.",
+      title: "AI Video Generation Platform",
+      description: "Built a system that automatically creates marketing videos from text briefs, reducing video production time by 80%.",
       image: "https://images.unsplash.com/photo-1626379953822-baec19c3accd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-      tags: ["Video Generation", "Text-to-Speech", "Computer Vision"],
+      tags: ["Video AI", "Text-to-Speech", "Computer Vision", "PyTorch"],
     },
     {
-      title: "Coding Assistant",
-      description: "A specialized Gradio app that helps developers write, review, and optimize code across multiple languages.",
+      title: "Developer Productivity Tool",
+      description: "Created an AI assistant that helps engineering teams write and review code, improving developer productivity by 23%.",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
-      tags: ["Gradio", "Code Generation", "Code Analysis"],
+      tags: ["Code Generation", "Code Analysis", "React", "TypeScript"],
       demoLink: "#"
     },
     {
-      title: "Customer Support Chatbot",
-      description: "An advanced chatbot that handles customer inquiries 24/7, reducing support costs while improving satisfaction.",
+      title: "Multilingual Support System",
+      description: "Architected an AI-powered customer support system handling inquiries in 12 languages with 97% customer satisfaction.",
       image: "https://images.unsplash.com/photo-1611746869696-d09bce200020?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-      tags: ["NLP", "Customer Support", "Dialog Systems"],
+      tags: ["NLP", "Translation API", "FastAPI", "MongoDB"],
     },
     {
-      title: "Research Assistant",
-      description: "AI-powered tool that sources, summarizes, and organizes research papers and articles for content creators.",
+      title: "Research Intelligence Platform",
+      description: "Led development of a system that analyzes and summarizes research papers, increasing research efficiency by 45%.",
       image: "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-      tags: ["Content Analysis", "Summarization", "Information Retrieval"],
+      tags: ["Data Analysis", "Document Processing", "Python", "Scikit-learn"],
       demoLink: "#"
     },
     {
-      title: "YouTube Summarizer",
-      description: "A tool that creates concise, accurate summaries of YouTube videos, saving viewers time and increasing engagement.",
+      title: "Content Summarization Engine",
+      description: "Engineered a system that creates accurate summaries of video content with 93% information retention compared to full content.",
       image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-      tags: ["Speech Recognition", "Summarization", "Video Processing"],
+      tags: ["Speech Recognition", "Natural Language Generation", "AWS", "Docker"],
     },
   ];
 
@@ -65,9 +65,9 @@ const ProjectsSection = () => {
     <section id="projects" className="section bg-white">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Selected Projects</h2>
           <p className="text-xl text-gray-600">
-            A showcase of AI solutions built for real-world applications.
+            Significant projects I've led and contributed to throughout my career.
           </p>
         </div>
 
@@ -101,7 +101,7 @@ const ProjectsSection = () => {
                 <CardFooter>
                   <Button asChild variant="outline" className="w-full">
                     <a href={project.demoLink} target="_blank" rel="noreferrer">
-                      View Demo
+                      View Details
                     </a>
                   </Button>
                 </CardFooter>

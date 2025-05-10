@@ -14,25 +14,25 @@ const HeroSection = () => {
       <div className="container relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Transform Your Ideas into Intelligent Solutions
+            Senior Software Engineer Specializing in AI Solutions
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-6 max-w-3xl mx-auto">
-            Senior software engineer with 8+ years crafting enterprise-grade AI systems that deliver measurable business value.
+            8+ years of experience building enterprise-grade AI systems and intelligent applications that solve complex business problems.
           </p>
           
           <div className="flex flex-wrap justify-center gap-3 mb-8">
-            <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">60+ Projects Delivered</span>
-            <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">35+ Satisfied Clients</span>
+            <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">60+ Projects Completed</span>
             <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">8+ Years Experience</span>
+            <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">AI/ML Specialist</span>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="text-lg hover-float">
-              <a href="#contact">Start Your Project Today</a>
+              <a href="#contact">Contact Me</a>
             </Button>
             <Button asChild variant="outline" size="lg" className="text-lg hover-float">
-              <a href="#projects">View Success Stories</a>
+              <a href="#projects">View Projects</a>
             </Button>
           </div>
         </div>
