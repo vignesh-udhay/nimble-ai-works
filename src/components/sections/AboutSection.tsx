@@ -37,24 +37,24 @@ const AboutSection = () => {
           <div className="lg:max-w-lg">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Hey, I'm Alex</h2>
             <p className="text-lg text-gray-600 mb-4">
-              I'm an AI solutions specialist focused on creating practical, impactful tools that solve real business problems.
+              I'm a senior software engineer with 8 years of experience specializing in AI solutions that transform complex technology into practical, business-driving tools.
             </p>
             <p className="text-lg text-gray-600 mb-6">
-              With 5+ years in AI development, I understand that technology should serve your business goals — not complicate them. I specialize in demystifying AI and building solutions that deliver measurable value.
+              Having led teams at startups and enterprise organizations, I've developed a deep understanding of how to architect AI systems that deliver measurable ROI. My approach combines technical expertise with business acumen to create solutions that actually work for your specific needs.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="bg-gray-50 rounded-lg p-4 flex-1">
                 <h4 className="font-semibold mb-1">Experience</h4>
-                <p className="text-gray-600">5+ Years in AI</p>
+                <p className="text-gray-600">8+ Years</p>
               </div>
               <div className="bg-gray-50 rounded-lg p-4 flex-1">
                 <h4 className="font-semibold mb-1">Projects</h4>
-                <p className="text-gray-600">40+ Completed</p>
+                <p className="text-gray-600">60+ Delivered</p>
               </div>
               <div className="bg-gray-50 rounded-lg p-4 flex-1">
                 <h4 className="font-semibold mb-1">Clients</h4>
-                <p className="text-gray-600">25+ Happy</p>
+                <p className="text-gray-600">35+ Satisfied</p>
               </div>
             </div>
           </div>

@@ -14,19 +14,19 @@ const HeroSection = () => {
       <div className="container relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Helping businesses unlock AI — simply.
+            Engineering intelligent solutions for modern business.
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Custom AI solutions that solve real problems for small businesses, creators, and agencies.
+            Senior software engineer with 8+ years crafting enterprise-grade AI systems that deliver measurable business value.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="text-lg hover-float">
-              <a href="#contact">Let's Build Together</a>
+              <a href="#contact">Discuss Your Project</a>
             </Button>
             <Button asChild variant="outline" size="lg" className="text-lg hover-float">
-              <a href="#projects">View Projects</a>
+              <a href="#projects">View Portfolio</a>
             </Button>
           </div>
         </div>
